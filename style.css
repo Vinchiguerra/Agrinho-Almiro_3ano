@@ -1,0 +1,69 @@
+body{
+    background-color:rgb(117, 40, 103)
+}
+h1{
+    text-align: center;
+     color:rgb(164, 126, 185)
+}
+h2{
+  color: rgb(164, 142, 190);  
+}
+
+header{
+    background-color: rgba(192, 50, 168, 0.884);
+}
+.pagina1{
+    overflow: auto;
+    text-align: center;
+}
+.header{
+    height: 150px;
+    position: relative;
+    border-bottom: 5px solid #000;
+}
+header img{
+    width: auto;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    margin-right: 5px;
+}
+#flor{
+    display: block;
+    float: left;
+    margin-right: 50px;
+}
+.container{
+    overflow: auto; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img{
+    float: left; 
+    margin-right: 10px;
+}
+#carro2{
+    width: 500px; 
+    height: 350px;
+    border: 5px solid rgb(208, 174, 55);
+    margin-top: 50px;
+}
+ul {
+    margin-left: 10px;
+    padding: 0; 
+}
+li{
+    display: inline; 
+    margin-right: 10px;
+}
+.copyright{
+    color: aliceblue;
+    font-size: 13px;
+    margin: 10px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(118, 0, 165);
+    padding: 2px 0;
+}
