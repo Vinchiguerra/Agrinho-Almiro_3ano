@@ -13,6 +13,7 @@ header{
     background-color: rgba(192, 50, 168, 0.884);
 }
 .pagina1{
+    color: azure;
     overflow: auto;
     text-align: center;
 }
@@ -38,6 +39,7 @@ header img{
 .container{
     overflow: auto; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 img{
     float: left; 
@@ -54,6 +56,7 @@ ul {
     padding: 0; 
 }
 li{
+    color: azure;
     display: inline; 
     margin-right: 10px;
 }
@@ -63,7 +66,21 @@ li{
     margin: 10px;
 }
 footer{
+    color: azure;
     text-align: center;
     background-color: rgb(118, 0, 165);
     padding: 2px 0;
+}
+.pagina2{
+  color: rgb(208, 174, 55);
+}
+@media (max-width: 778px){
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+.red-link {
+    color: red;
 }
